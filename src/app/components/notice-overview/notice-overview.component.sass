@@ -1,0 +1,59 @@
+#notice-overview
+  border: 2px solid black
+  border
+  border-radius: 0 50px 50px 0
+  display: flex
+  cursor: pointer
+  color: white
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-size: 1.5em
+
+  & > div > div
+    height: 100px
+    box-sizing: border-box
+    padding-left: 10px
+    width: inherit
+
+  & > div:nth-child(1)
+    width: 300px
+    height: 300px
+    display: flex
+    align-items: end
+    background-image: url('https://blog.postman.com/wp-content/uploads/2020/11/Postman-Galaxy.png')
+    background-size: contain
+
+  & div
+    width: calc(100% - 300px)
+
+    & article:nth-child(1)
+      background-image: url('https://setormoveleiro.com.br/wp-content/uploads/2023/01/Inteligencia-Artificial-AI-IA%E2%80%A6-so-se-fala-em-uma-coisa.jpeg')
+      border-top-right-radius: 48px
+      background-size: cover
+
+    & article:nth-child(2)
+      background-image: url('https://statics.eleconomista.com.ar/2023/03/64011f292402a.jpeg')
+      border-bottom-right-radius: 48px
+      background-size: cover
+      background-position: center
+
+    & article
+      height: calc( 300px / 2 )
+      border: 2px solid black
+      border-top: none
+      border-right: none
+      border-left: none
+      width: 100%
+      display: flex
+      align-items: end
+
+      &:nth-last-child(1)
+        border-bottom: none
+
+      & > div
+        // height: 50px
+        width: inherit
+        box-sizing: border-box
+        padding: 0 0 10px 10px
+
+  h1
+    margin: 0
