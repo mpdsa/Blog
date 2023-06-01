@@ -4,7 +4,6 @@ import { PathLocationStrategy, LocationStrategy } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
-import { PostsComponent } from './components/posts/posts.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NoticeComponent } from './pages/notice/notice.component';
 import { NoticeOverviewComponent } from './components/notice-overview/notice-overview.component';
@@ -13,7 +12,6 @@ import { NoticeOverviewComponent } from './components/notice-overview/notice-ove
   declarations: [
     AppComponent,
     MenuBarComponent,
-    PostsComponent,
     HomeComponent,
     NoticeComponent,
     NoticeOverviewComponent
