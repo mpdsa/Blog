@@ -5,9 +5,8 @@
   </div>
   <nav>
     <ul>
-      <li>Inicio</li>
-      <li>Portfólio</li>
-      <li>Contato</li>
+      <li [routerLink]="['/']">Inicio</li>
+      <li (click)="goToLink('https://mpdsa.vercel.app')">Portfólio</li>
     </ul>
   </nav>
 </header>
